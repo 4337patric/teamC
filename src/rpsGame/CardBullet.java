@@ -338,7 +338,7 @@ class Dealer {
         // 1. 목표를 넘지 않는 가장 큰 양수 카드 선택
         for (int i = 0; i < cardArray.length; i++) {
             int c = cardArray[i];
-            if (c > 0 && gm.currentSum + c <= gm.targetNumber) {
+            if (c > 0 && gm.currentSum + c < gm.targetNumber) {
                 if (c > maxValue) {
                     maxValue = c;
                     selectedIndex = i;
@@ -393,3 +393,4 @@ class Dealer {
 
   
 }
+
