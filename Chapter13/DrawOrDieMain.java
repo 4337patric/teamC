@@ -9,7 +9,7 @@ import rpsGame.ShootingScene;
 import rpsGame.CardMatchingPanel;
 import rpsGame.QuestionPanel;
 
-public class RockPaperScissorsGUIMain
+public class DrawOrDieMain
 {
 	protected static ShootingScene shoot;
 	
@@ -33,5 +33,6 @@ public class RockPaperScissorsGUIMain
 		frame.setVisible( true );
 	}
 }
+
 
 
